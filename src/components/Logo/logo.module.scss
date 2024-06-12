@@ -1,0 +1,17 @@
+.logo img {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    @media (max-width: 754px) {
+        
+    }
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    @media (max-width: 754px) {
+       margin-top: 20px;     
+       margin-bottom: -30px;
+    }
+}

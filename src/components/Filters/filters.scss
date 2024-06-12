@@ -1,0 +1,7 @@
+.ant-radio-group-large :where(.css-dev-only-do-not-override-3rel02).ant-radio-button-wrapper {
+    height: 60px;
+    padding: 10px;
+    @media (max-width: 754px) {
+        height: 50px;
+    }
+}

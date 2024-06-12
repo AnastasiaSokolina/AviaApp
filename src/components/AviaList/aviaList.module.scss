@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-top: 19px;
+    @media (max-width: 754px) {
+        margin-top: 0;
+    }
+}
+
+.error-message {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(74, 74, 74, 1);
+}
+
+.no-message {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color:rgba(74, 74, 74, 1);
+}
+
