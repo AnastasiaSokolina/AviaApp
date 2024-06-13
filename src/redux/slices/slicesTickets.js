@@ -5,7 +5,6 @@ import uniqid from 'uniqid'
 export const fetchSearchID = createAsyncThunk('tickets/fetchSearchId', async() => {
     const response = await fetch('https://aviasales-test-api.kata.academy/search')
     const data = await response.json()
-    console.log(data)
     return data
 })
 
@@ -20,7 +19,6 @@ export const fetchGetTickets = createAsyncThunk('tickets/fetchTickets', async (_
             return rejectWithMessage('Обновите страницу, проблемы с соединением с сервером')
         }
         const data = await response.json()
-        console.log(data)
         return data
     }
     catch (error) {
