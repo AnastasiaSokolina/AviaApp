@@ -1,1 +1,1 @@
-https://avia-app-theta.vercel.app
+https://avia-app-q99u.vercel.app/
